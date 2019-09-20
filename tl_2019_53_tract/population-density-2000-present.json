@@ -1,0 +1,2085 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "c535-p92u",
+      "name" : "WAOFM - April 1 - Population Density by County, 2000 to Present",
+      "attribution" : "Washington State Office of Financial Management, Forecasting and Research Division",
+      "attributionLink" : "http://www.ofm.wa.gov/pop/april1/default.asp",
+      "averageRating" : 0,
+      "category" : "Demographics",
+      "createdAt" : 1561501391,
+      "description" : "Intercensal and postcensal estimates of population density by county 1990 to present.",
+      "displayType" : "table",
+      "downloadCount" : 17,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1564001408,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 31797499,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1564001400,
+      "publicationGroup" : 16308288,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1564001399,
+      "rowsUpdatedBy" : "qav9-tahu",
+      "tableId" : 16308288,
+      "totalTimesRated" : 0,
+      "viewCount" : 5,
+      "viewLastModified" : 1564001400,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1564001400,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 995180,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1564001400,
+        "workflowId" : 2106,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1564001400,
+          "failureCount" : 0,
+          "startedAt" : 1564001400,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "qav9-tahu",
+          "displayName" : "Thomas Kimpel"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 419879240,
+        "name" : "COUNTY_NAME",
+        "dataTypeName" : "text",
+        "description" : "County name",
+        "fieldName" : "county_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 84720426,
+        "cachedContents" : {
+          "largest" : "Yakima",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Island",
+            "count" : "1"
+          }, {
+            "item" : "Asotin",
+            "count" : "1"
+          }, {
+            "item" : "Kitsap",
+            "count" : "1"
+          }, {
+            "item" : "Pacific",
+            "count" : "1"
+          }, {
+            "item" : "Columbia",
+            "count" : "1"
+          }, {
+            "item" : "Klickitat",
+            "count" : "1"
+          }, {
+            "item" : "Franklin",
+            "count" : "1"
+          }, {
+            "item" : "Skagit",
+            "count" : "1"
+          }, {
+            "item" : "Benton",
+            "count" : "1"
+          }, {
+            "item" : "Kittitas",
+            "count" : "1"
+          }, {
+            "item" : "Clallam",
+            "count" : "1"
+          }, {
+            "item" : "King",
+            "count" : "1"
+          }, {
+            "item" : "Okanogan",
+            "count" : "1"
+          }, {
+            "item" : "Wahkiakum",
+            "count" : "1"
+          }, {
+            "item" : "Grant",
+            "count" : "1"
+          }, {
+            "item" : "Lewis",
+            "count" : "1"
+          }, {
+            "item" : "Jefferson",
+            "count" : "1"
+          }, {
+            "item" : "Skamania",
+            "count" : "1"
+          }, {
+            "item" : "Walla Walla",
+            "count" : "1"
+          }, {
+            "item" : "Douglas",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "Adams",
+          "cardinality" : "39"
+        },
+        "format" : { }
+      }, {
+        "id" : 419879239,
+        "name" : "POPDEN_2000",
+        "dataTypeName" : "number",
+        "description" : "Population density 2000",
+        "fieldName" : "popden_2000",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720425,
+        "cachedContents" : {
+          "largest" : "817.03",
+          "null" : "0",
+          "top" : [ {
+            "item" : "14.50",
+            "count" : "1"
+          }, {
+            "item" : "18.87",
+            "count" : "1"
+          }, {
+            "item" : "80.48",
+            "count" : "1"
+          }, {
+            "item" : "78.71",
+            "count" : "1"
+          }, {
+            "item" : "343.32",
+            "count" : "1"
+          }, {
+            "item" : "3.29",
+            "count" : "1"
+          }, {
+            "item" : "51.41",
+            "count" : "1"
+          }, {
+            "item" : "16.17",
+            "count" : "1"
+          }, {
+            "item" : "83.66",
+            "count" : "1"
+          }, {
+            "item" : "14.52",
+            "count" : "1"
+          }, {
+            "item" : "290.09",
+            "count" : "1"
+          }, {
+            "item" : "417.42",
+            "count" : "1"
+          }, {
+            "item" : "585.82",
+            "count" : "1"
+          }, {
+            "item" : "285.21",
+            "count" : "1"
+          }, {
+            "item" : "549.55",
+            "count" : "1"
+          }, {
+            "item" : "5.96",
+            "count" : "1"
+          }, {
+            "item" : "36.90",
+            "count" : "1"
+          }, {
+            "item" : "35.05",
+            "count" : "1"
+          }, {
+            "item" : "22.49",
+            "count" : "1"
+          }, {
+            "item" : "28.49",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.29",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879238,
+        "name" : "POPDEN_2001",
+        "dataTypeName" : "number",
+        "description" : "Population density 2001",
+        "fieldName" : "popden_2001",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720424,
+        "cachedContents" : {
+          "largest" : "825.71",
+          "null" : "0",
+          "top" : [ {
+            "item" : "345.74",
+            "count" : "1"
+          }, {
+            "item" : "7.56",
+            "count" : "1"
+          }, {
+            "item" : "288.99",
+            "count" : "1"
+          }, {
+            "item" : "14.50",
+            "count" : "1"
+          }, {
+            "item" : "16.27",
+            "count" : "1"
+          }, {
+            "item" : "8.56",
+            "count" : "1"
+          }, {
+            "item" : "4.74",
+            "count" : "1"
+          }, {
+            "item" : "8.67",
+            "count" : "1"
+          }, {
+            "item" : "32.50",
+            "count" : "1"
+          }, {
+            "item" : "825.71",
+            "count" : "1"
+          }, {
+            "item" : "6.00",
+            "count" : "1"
+          }, {
+            "item" : "18.68",
+            "count" : "1"
+          }, {
+            "item" : "28.31",
+            "count" : "1"
+          }, {
+            "item" : "37.21",
+            "count" : "1"
+          }, {
+            "item" : "10.30",
+            "count" : "1"
+          }, {
+            "item" : "295.76",
+            "count" : "1"
+          }, {
+            "item" : "239.92",
+            "count" : "1"
+          }, {
+            "item" : "82.63",
+            "count" : "1"
+          }, {
+            "item" : "561.45",
+            "count" : "1"
+          }, {
+            "item" : "40.63",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.33",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879237,
+        "name" : "POPDEN_2002",
+        "dataTypeName" : "number",
+        "description" : "Population density 2002",
+        "fieldName" : "popden_2002",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720423,
+        "cachedContents" : {
+          "largest" : "836.07",
+          "null" : "0",
+          "top" : [ {
+            "item" : "836.07",
+            "count" : "1"
+          }, {
+            "item" : "87.07",
+            "count" : "1"
+          }, {
+            "item" : "16.39",
+            "count" : "1"
+          }, {
+            "item" : "243.11",
+            "count" : "1"
+          }, {
+            "item" : "14.96",
+            "count" : "1"
+          }, {
+            "item" : "4.74",
+            "count" : "1"
+          }, {
+            "item" : "23.07",
+            "count" : "1"
+          }, {
+            "item" : "29.11",
+            "count" : "1"
+          }, {
+            "item" : "429.52",
+            "count" : "1"
+          }, {
+            "item" : "52.32",
+            "count" : "1"
+          }, {
+            "item" : "4.45",
+            "count" : "1"
+          }, {
+            "item" : "22.37",
+            "count" : "1"
+          }, {
+            "item" : "294.54",
+            "count" : "1"
+          }, {
+            "item" : "32.51",
+            "count" : "1"
+          }, {
+            "item" : "83.30",
+            "count" : "1"
+          }, {
+            "item" : "42.08",
+            "count" : "1"
+          }, {
+            "item" : "597.66",
+            "count" : "1"
+          }, {
+            "item" : "18.82",
+            "count" : "1"
+          }, {
+            "item" : "18.06",
+            "count" : "1"
+          }, {
+            "item" : "350.96",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.33",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879236,
+        "name" : "POPDEN_2003",
+        "dataTypeName" : "number",
+        "description" : "Population density 2003",
+        "fieldName" : "popden_2003",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720422,
+        "cachedContents" : {
+          "largest" : "841.04",
+          "null" : "0",
+          "top" : [ {
+            "item" : "243.18",
+            "count" : "1"
+          }, {
+            "item" : "4.39",
+            "count" : "1"
+          }, {
+            "item" : "28.90",
+            "count" : "1"
+          }, {
+            "item" : "15.07",
+            "count" : "1"
+          }, {
+            "item" : "306.33",
+            "count" : "1"
+          }, {
+            "item" : "53.06",
+            "count" : "1"
+          }, {
+            "item" : "29.24",
+            "count" : "1"
+          }, {
+            "item" : "22.15",
+            "count" : "1"
+          }, {
+            "item" : "16.53",
+            "count" : "1"
+          }, {
+            "item" : "3.30",
+            "count" : "1"
+          }, {
+            "item" : "84.45",
+            "count" : "1"
+          }, {
+            "item" : "18.97",
+            "count" : "1"
+          }, {
+            "item" : "89.21",
+            "count" : "1"
+          }, {
+            "item" : "36.23",
+            "count" : "1"
+          }, {
+            "item" : "8.87",
+            "count" : "1"
+          }, {
+            "item" : "7.59",
+            "count" : "1"
+          }, {
+            "item" : "61.46",
+            "count" : "1"
+          }, {
+            "item" : "3.36",
+            "count" : "1"
+          }, {
+            "item" : "43.73",
+            "count" : "1"
+          }, {
+            "item" : "353.26",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.30",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879235,
+        "name" : "POPDEN_2004",
+        "dataTypeName" : "number",
+        "description" : "Population density 2004",
+        "fieldName" : "popden_2004",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720421,
+        "cachedContents" : {
+          "largest" : "847.01",
+          "null" : "0",
+          "top" : [ {
+            "item" : "357.67",
+            "count" : "1"
+          }, {
+            "item" : "16.01",
+            "count" : "1"
+          }, {
+            "item" : "8.69",
+            "count" : "1"
+          }, {
+            "item" : "18.65",
+            "count" : "1"
+          }, {
+            "item" : "36.55",
+            "count" : "1"
+          }, {
+            "item" : "32.71",
+            "count" : "1"
+          }, {
+            "item" : "91.52",
+            "count" : "1"
+          }, {
+            "item" : "16.68",
+            "count" : "1"
+          }, {
+            "item" : "4.74",
+            "count" : "1"
+          }, {
+            "item" : "19.30",
+            "count" : "1"
+          }, {
+            "item" : "22.15",
+            "count" : "1"
+          }, {
+            "item" : "3.34",
+            "count" : "1"
+          }, {
+            "item" : "9.09",
+            "count" : "1"
+          }, {
+            "item" : "3.27",
+            "count" : "1"
+          }, {
+            "item" : "244.89",
+            "count" : "1"
+          }, {
+            "item" : "15.29",
+            "count" : "1"
+          }, {
+            "item" : "442.97",
+            "count" : "1"
+          }, {
+            "item" : "47.15",
+            "count" : "1"
+          }, {
+            "item" : "7.62",
+            "count" : "1"
+          }, {
+            "item" : "84.83",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.27",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879234,
+        "name" : "POPDEN_2005",
+        "dataTypeName" : "number",
+        "description" : "Population density 2005",
+        "fieldName" : "popden_2005",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720420,
+        "cachedContents" : {
+          "largest" : "853.70",
+          "null" : "0",
+          "top" : [ {
+            "item" : "16.39",
+            "count" : "1"
+          }, {
+            "item" : "4.76",
+            "count" : "1"
+          }, {
+            "item" : "15.63",
+            "count" : "1"
+          }, {
+            "item" : "87.27",
+            "count" : "1"
+          }, {
+            "item" : "38.90",
+            "count" : "1"
+          }, {
+            "item" : "3.26",
+            "count" : "1"
+          }, {
+            "item" : "19.68",
+            "count" : "1"
+          }, {
+            "item" : "450.84",
+            "count" : "1"
+          }, {
+            "item" : "36.94",
+            "count" : "1"
+          }, {
+            "item" : "10.55",
+            "count" : "1"
+          }, {
+            "item" : "16.86",
+            "count" : "1"
+          }, {
+            "item" : "315.38",
+            "count" : "1"
+          }, {
+            "item" : "29.81",
+            "count" : "1"
+          }, {
+            "item" : "29.88",
+            "count" : "1"
+          }, {
+            "item" : "8.82",
+            "count" : "1"
+          }, {
+            "item" : "32.96",
+            "count" : "1"
+          }, {
+            "item" : "9.17",
+            "count" : "1"
+          }, {
+            "item" : "50.36",
+            "count" : "1"
+          }, {
+            "item" : "4.49",
+            "count" : "1"
+          }, {
+            "item" : "3.36",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.26",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879233,
+        "name" : "POPDEN_2006",
+        "dataTypeName" : "number",
+        "description" : "Population density 2006",
+        "fieldName" : "popden_2006",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720419,
+        "cachedContents" : {
+          "largest" : "867.91",
+          "null" : "0",
+          "top" : [ {
+            "item" : "33.33",
+            "count" : "1"
+          }, {
+            "item" : "53.42",
+            "count" : "1"
+          }, {
+            "item" : "7.72",
+            "count" : "1"
+          }, {
+            "item" : "9.19",
+            "count" : "1"
+          }, {
+            "item" : "23.93",
+            "count" : "1"
+          }, {
+            "item" : "87.03",
+            "count" : "1"
+          }, {
+            "item" : "3.39",
+            "count" : "1"
+          }, {
+            "item" : "15.90",
+            "count" : "1"
+          }, {
+            "item" : "370.34",
+            "count" : "1"
+          }, {
+            "item" : "54.56",
+            "count" : "1"
+          }, {
+            "item" : "39.64",
+            "count" : "1"
+          }, {
+            "item" : "19.50",
+            "count" : "1"
+          }, {
+            "item" : "4.75",
+            "count" : "1"
+          }, {
+            "item" : "37.34",
+            "count" : "1"
+          }, {
+            "item" : "867.91",
+            "count" : "1"
+          }, {
+            "item" : "6.51",
+            "count" : "1"
+          }, {
+            "item" : "58.49",
+            "count" : "1"
+          }, {
+            "item" : "644.26",
+            "count" : "1"
+          }, {
+            "item" : "22.41",
+            "count" : "1"
+          }, {
+            "item" : "30.34",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.25",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879232,
+        "name" : "POPDEN_2007",
+        "dataTypeName" : "number",
+        "description" : "Population density 2007",
+        "fieldName" : "popden_2007",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720418,
+        "cachedContents" : {
+          "largest" : "880.09",
+          "null" : "0",
+          "top" : [ {
+            "item" : "329.96",
+            "count" : "1"
+          }, {
+            "item" : "4.71",
+            "count" : "1"
+          }, {
+            "item" : "55.15",
+            "count" : "1"
+          }, {
+            "item" : "40.15",
+            "count" : "1"
+          }, {
+            "item" : "45.46",
+            "count" : "1"
+          }, {
+            "item" : "3.40",
+            "count" : "1"
+          }, {
+            "item" : "19.96",
+            "count" : "1"
+          }, {
+            "item" : "60.42",
+            "count" : "1"
+          }, {
+            "item" : "375.31",
+            "count" : "1"
+          }, {
+            "item" : "19.82",
+            "count" : "1"
+          }, {
+            "item" : "22.28",
+            "count" : "1"
+          }, {
+            "item" : "9.33",
+            "count" : "1"
+          }, {
+            "item" : "37.58",
+            "count" : "1"
+          }, {
+            "item" : "30.75",
+            "count" : "1"
+          }, {
+            "item" : "15.00",
+            "count" : "1"
+          }, {
+            "item" : "4.56",
+            "count" : "1"
+          }, {
+            "item" : "33.70",
+            "count" : "1"
+          }, {
+            "item" : "92.14",
+            "count" : "1"
+          }, {
+            "item" : "65.64",
+            "count" : "1"
+          }, {
+            "item" : "468.70",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.22",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879231,
+        "name" : "POPDEN_2008",
+        "dataTypeName" : "number",
+        "description" : "Population density 2008",
+        "fieldName" : "popden_2008",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720417,
+        "cachedContents" : {
+          "largest" : "889.51",
+          "null" : "0",
+          "top" : [ {
+            "item" : "22.24",
+            "count" : "1"
+          }, {
+            "item" : "7.70",
+            "count" : "1"
+          }, {
+            "item" : "32.07",
+            "count" : "1"
+          }, {
+            "item" : "55.75",
+            "count" : "1"
+          }, {
+            "item" : "40.60",
+            "count" : "1"
+          }, {
+            "item" : "37.71",
+            "count" : "1"
+          }, {
+            "item" : "9.18",
+            "count" : "1"
+          }, {
+            "item" : "10.80",
+            "count" : "1"
+          }, {
+            "item" : "376.84",
+            "count" : "1"
+          }, {
+            "item" : "631.12",
+            "count" : "1"
+          }, {
+            "item" : "45.70",
+            "count" : "1"
+          }, {
+            "item" : "58.14",
+            "count" : "1"
+          }, {
+            "item" : "89.38",
+            "count" : "1"
+          }, {
+            "item" : "61.95",
+            "count" : "1"
+          }, {
+            "item" : "15.16",
+            "count" : "1"
+          }, {
+            "item" : "98.41",
+            "count" : "1"
+          }, {
+            "item" : "3.42",
+            "count" : "1"
+          }, {
+            "item" : "6.61",
+            "count" : "1"
+          }, {
+            "item" : "17.47",
+            "count" : "1"
+          }, {
+            "item" : "334.76",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.21",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879230,
+        "name" : "POPDEN_2009",
+        "dataTypeName" : "number",
+        "description" : "Population density 2009",
+        "fieldName" : "popden_2009",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720416,
+        "cachedContents" : {
+          "largest" : "898.01",
+          "null" : "0",
+          "top" : [ {
+            "item" : "9.57",
+            "count" : "1"
+          }, {
+            "item" : "7.78",
+            "count" : "1"
+          }, {
+            "item" : "40.83",
+            "count" : "1"
+          }, {
+            "item" : "60.46",
+            "count" : "1"
+          }, {
+            "item" : "37.86",
+            "count" : "1"
+          }, {
+            "item" : "24.71",
+            "count" : "1"
+          }, {
+            "item" : "32.72",
+            "count" : "1"
+          }, {
+            "item" : "9.17",
+            "count" : "1"
+          }, {
+            "item" : "634.52",
+            "count" : "1"
+          }, {
+            "item" : "10.82",
+            "count" : "1"
+          }, {
+            "item" : "342.96",
+            "count" : "1"
+          }, {
+            "item" : "377.76",
+            "count" : "1"
+          }, {
+            "item" : "20.89",
+            "count" : "1"
+          }, {
+            "item" : "62.68",
+            "count" : "1"
+          }, {
+            "item" : "33.99",
+            "count" : "1"
+          }, {
+            "item" : "17.72",
+            "count" : "1"
+          }, {
+            "item" : "6.64",
+            "count" : "1"
+          }, {
+            "item" : "46.09",
+            "count" : "1"
+          }, {
+            "item" : "3.43",
+            "count" : "1"
+          }, {
+            "item" : "20.38",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.20",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879229,
+        "name" : "POPDEN_2010",
+        "dataTypeName" : "number",
+        "description" : "Population density 2010",
+        "fieldName" : "popden_2010",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720415,
+        "cachedContents" : {
+          "largest" : "912.87",
+          "null" : "0",
+          "top" : [ {
+            "item" : "10.86",
+            "count" : "1"
+          }, {
+            "item" : "24.81",
+            "count" : "1"
+          }, {
+            "item" : "341.76",
+            "count" : "1"
+          }, {
+            "item" : "635.88",
+            "count" : "1"
+          }, {
+            "item" : "46.28",
+            "count" : "1"
+          }, {
+            "item" : "16.56",
+            "count" : "1"
+          }, {
+            "item" : "103.02",
+            "count" : "1"
+          }, {
+            "item" : "21.12",
+            "count" : "1"
+          }, {
+            "item" : "267.16",
+            "count" : "1"
+          }, {
+            "item" : "90.67",
+            "count" : "1"
+          }, {
+            "item" : "4.57",
+            "count" : "1"
+          }, {
+            "item" : "31.40",
+            "count" : "1"
+          }, {
+            "item" : "33.26",
+            "count" : "1"
+          }, {
+            "item" : "349.42",
+            "count" : "1"
+          }, {
+            "item" : "9.29",
+            "count" : "1"
+          }, {
+            "item" : "676.25",
+            "count" : "1"
+          }, {
+            "item" : "3.19",
+            "count" : "1"
+          }, {
+            "item" : "9.73",
+            "count" : "1"
+          }, {
+            "item" : "912.87",
+            "count" : "1"
+          }, {
+            "item" : "22.43",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.19",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879228,
+        "name" : "POPDEN_2011",
+        "dataTypeName" : "number",
+        "description" : "Population density 2011",
+        "fieldName" : "popden_2011",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720414,
+        "cachedContents" : {
+          "largest" : "918.24",
+          "null" : "0",
+          "top" : [ {
+            "item" : "7.82",
+            "count" : "1"
+          }, {
+            "item" : "90.08",
+            "count" : "1"
+          }, {
+            "item" : "34.03",
+            "count" : "1"
+          }, {
+            "item" : "67.81",
+            "count" : "1"
+          }, {
+            "item" : "41.19",
+            "count" : "1"
+          }, {
+            "item" : "56.97",
+            "count" : "1"
+          }, {
+            "item" : "21.24",
+            "count" : "1"
+          }, {
+            "item" : "3.45",
+            "count" : "1"
+          }, {
+            "item" : "378.03",
+            "count" : "1"
+          }, {
+            "item" : "9.84",
+            "count" : "1"
+          }, {
+            "item" : "6.73",
+            "count" : "1"
+          }, {
+            "item" : "351.96",
+            "count" : "1"
+          }, {
+            "item" : "31.63",
+            "count" : "1"
+          }, {
+            "item" : "46.29",
+            "count" : "1"
+          }, {
+            "item" : "680.45",
+            "count" : "1"
+          }, {
+            "item" : "343.51",
+            "count" : "1"
+          }, {
+            "item" : "33.63",
+            "count" : "1"
+          }, {
+            "item" : "22.41",
+            "count" : "1"
+          }, {
+            "item" : "9.29",
+            "count" : "1"
+          }, {
+            "item" : "17.60",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.17",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879227,
+        "name" : "POPDEN_2012",
+        "dataTypeName" : "number",
+        "description" : "Population density 2012",
+        "fieldName" : "popden_2012",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720413,
+        "cachedContents" : {
+          "largest" : "925.05",
+          "null" : "0",
+          "top" : [ {
+            "item" : "66.42",
+            "count" : "1"
+          }, {
+            "item" : "9.36",
+            "count" : "1"
+          }, {
+            "item" : "685.61",
+            "count" : "1"
+          }, {
+            "item" : "21.38",
+            "count" : "1"
+          }, {
+            "item" : "355.70",
+            "count" : "1"
+          }, {
+            "item" : "380.67",
+            "count" : "1"
+          }, {
+            "item" : "91.57",
+            "count" : "1"
+          }, {
+            "item" : "16.73",
+            "count" : "1"
+          }, {
+            "item" : "105.86",
+            "count" : "1"
+          }, {
+            "item" : "64.05",
+            "count" : "1"
+          }, {
+            "item" : "17.64",
+            "count" : "1"
+          }, {
+            "item" : "46.53",
+            "count" : "1"
+          }, {
+            "item" : "21.28",
+            "count" : "1"
+          }, {
+            "item" : "18.06",
+            "count" : "1"
+          }, {
+            "item" : "25.06",
+            "count" : "1"
+          }, {
+            "item" : "346.34",
+            "count" : "1"
+          }, {
+            "item" : "41.42",
+            "count" : "1"
+          }, {
+            "item" : "7.86",
+            "count" : "1"
+          }, {
+            "item" : "6.81",
+            "count" : "1"
+          }, {
+            "item" : "3.17",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.17",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879226,
+        "name" : "POPDEN_2013",
+        "dataTypeName" : "number",
+        "description" : "Population density 2013",
+        "fieldName" : "popden_2013",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720412,
+        "cachedContents" : {
+          "largest" : "936.82",
+          "null" : "0",
+          "top" : [ {
+            "item" : "643.14",
+            "count" : "1"
+          }, {
+            "item" : "34.27",
+            "count" : "1"
+          }, {
+            "item" : "16.78",
+            "count" : "1"
+          }, {
+            "item" : "9.39",
+            "count" : "1"
+          }, {
+            "item" : "487.87",
+            "count" : "1"
+          }, {
+            "item" : "6.82",
+            "count" : "1"
+          }, {
+            "item" : "64.41",
+            "count" : "1"
+          }, {
+            "item" : "41.62",
+            "count" : "1"
+          }, {
+            "item" : "34.26",
+            "count" : "1"
+          }, {
+            "item" : "360.27",
+            "count" : "1"
+          }, {
+            "item" : "46.85",
+            "count" : "1"
+          }, {
+            "item" : "21.31",
+            "count" : "1"
+          }, {
+            "item" : "57.56",
+            "count" : "1"
+          }, {
+            "item" : "936.82",
+            "count" : "1"
+          }, {
+            "item" : "349.98",
+            "count" : "1"
+          }, {
+            "item" : "9.97",
+            "count" : "1"
+          }, {
+            "item" : "3.17",
+            "count" : "1"
+          }, {
+            "item" : "38.49",
+            "count" : "1"
+          }, {
+            "item" : "21.59",
+            "count" : "1"
+          }, {
+            "item" : "68.51",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.17",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879225,
+        "name" : "POPDEN_2014",
+        "dataTypeName" : "number",
+        "description" : "Population density 2014",
+        "fieldName" : "popden_2014",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720411,
+        "cachedContents" : {
+          "largest" : "953.53",
+          "null" : "0",
+          "top" : [ {
+            "item" : "647.95",
+            "count" : "1"
+          }, {
+            "item" : "109.68",
+            "count" : "1"
+          }, {
+            "item" : "7.92",
+            "count" : "1"
+          }, {
+            "item" : "3.48",
+            "count" : "1"
+          }, {
+            "item" : "34.67",
+            "count" : "1"
+          }, {
+            "item" : "21.54",
+            "count" : "1"
+          }, {
+            "item" : "21.82",
+            "count" : "1"
+          }, {
+            "item" : "6.87",
+            "count" : "1"
+          }, {
+            "item" : "22.62",
+            "count" : "1"
+          }, {
+            "item" : "4.63",
+            "count" : "1"
+          }, {
+            "item" : "9.44",
+            "count" : "1"
+          }, {
+            "item" : "365.67",
+            "count" : "1"
+          }, {
+            "item" : "383.79",
+            "count" : "1"
+          }, {
+            "item" : "90.95",
+            "count" : "1"
+          }, {
+            "item" : "355.01",
+            "count" : "1"
+          }, {
+            "item" : "98.54",
+            "count" : "1"
+          }, {
+            "item" : "47.36",
+            "count" : "1"
+          }, {
+            "item" : "41.71",
+            "count" : "1"
+          }, {
+            "item" : "3.15",
+            "count" : "1"
+          }, {
+            "item" : "491.94",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.15",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879224,
+        "name" : "POPDEN_2015",
+        "dataTypeName" : "number",
+        "description" : "Population density 2015",
+        "fieldName" : "popden_2015",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720410,
+        "cachedContents" : {
+          "largest" : "970.33",
+          "null" : "0",
+          "top" : [ {
+            "item" : "31.90",
+            "count" : "1"
+          }, {
+            "item" : "64.83",
+            "count" : "1"
+          }, {
+            "item" : "4.71",
+            "count" : "1"
+          }, {
+            "item" : "3.18",
+            "count" : "1"
+          }, {
+            "item" : "93.04",
+            "count" : "1"
+          }, {
+            "item" : "91.46",
+            "count" : "1"
+          }, {
+            "item" : "58.19",
+            "count" : "1"
+          }, {
+            "item" : "41.79",
+            "count" : "1"
+          }, {
+            "item" : "6.90",
+            "count" : "1"
+          }, {
+            "item" : "17.77",
+            "count" : "1"
+          }, {
+            "item" : "718.31",
+            "count" : "1"
+          }, {
+            "item" : "970.33",
+            "count" : "1"
+          }, {
+            "item" : "21.98",
+            "count" : "1"
+          }, {
+            "item" : "22.74",
+            "count" : "1"
+          }, {
+            "item" : "38.44",
+            "count" : "1"
+          }, {
+            "item" : "15.11",
+            "count" : "1"
+          }, {
+            "item" : "25.69",
+            "count" : "1"
+          }, {
+            "item" : "35.05",
+            "count" : "1"
+          }, {
+            "item" : "3.50",
+            "count" : "1"
+          }, {
+            "item" : "18.57",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.18",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879223,
+        "name" : "POPDEN_2016",
+        "dataTypeName" : "number",
+        "description" : "Population density 2016",
+        "fieldName" : "popden_2016",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720409,
+        "cachedContents" : {
+          "largest" : "995.05",
+          "null" : "0",
+          "top" : [ {
+            "item" : "42.23",
+            "count" : "1"
+          }, {
+            "item" : "112.03",
+            "count" : "1"
+          }, {
+            "item" : "17.24",
+            "count" : "1"
+          }, {
+            "item" : "7.92",
+            "count" : "1"
+          }, {
+            "item" : "377.71",
+            "count" : "1"
+          }, {
+            "item" : "35.31",
+            "count" : "1"
+          }, {
+            "item" : "93.84",
+            "count" : "1"
+          }, {
+            "item" : "32.00",
+            "count" : "1"
+          }, {
+            "item" : "664.89",
+            "count" : "1"
+          }, {
+            "item" : "25.99",
+            "count" : "1"
+          }, {
+            "item" : "91.96",
+            "count" : "1"
+          }, {
+            "item" : "505.83",
+            "count" : "1"
+          }, {
+            "item" : "47.81",
+            "count" : "1"
+          }, {
+            "item" : "9.49",
+            "count" : "1"
+          }, {
+            "item" : "38.29",
+            "count" : "1"
+          }, {
+            "item" : "995.05",
+            "count" : "1"
+          }, {
+            "item" : "22.38",
+            "count" : "1"
+          }, {
+            "item" : "71.38",
+            "count" : "1"
+          }, {
+            "item" : "22.20",
+            "count" : "1"
+          }, {
+            "item" : "64.96",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.10",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879222,
+        "name" : "POPDEN_2017",
+        "dataTypeName" : "number",
+        "description" : "Population density 2017",
+        "fieldName" : "popden_2017",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720408,
+        "cachedContents" : {
+          "largest" : "1018.02",
+          "null" : "0",
+          "top" : [ {
+            "item" : "669.22",
+            "count" : "1"
+          }, {
+            "item" : "378.20",
+            "count" : "1"
+          }, {
+            "item" : "102.66",
+            "count" : "1"
+          }, {
+            "item" : "65.86",
+            "count" : "1"
+          }, {
+            "item" : "17.96",
+            "count" : "1"
+          }, {
+            "item" : "35.04",
+            "count" : "1"
+          }, {
+            "item" : "3.51",
+            "count" : "1"
+          }, {
+            "item" : "22.78",
+            "count" : "1"
+          }, {
+            "item" : "26.31",
+            "count" : "1"
+          }, {
+            "item" : "9.55",
+            "count" : "1"
+          }, {
+            "item" : "4.63",
+            "count" : "1"
+          }, {
+            "item" : "94.93",
+            "count" : "1"
+          }, {
+            "item" : "92.88",
+            "count" : "1"
+          }, {
+            "item" : "15.30",
+            "count" : "1"
+          }, {
+            "item" : "283.37",
+            "count" : "1"
+          }, {
+            "item" : "7.06",
+            "count" : "1"
+          }, {
+            "item" : "113.80",
+            "count" : "1"
+          }, {
+            "item" : "22.77",
+            "count" : "1"
+          }, {
+            "item" : "514.76",
+            "count" : "1"
+          }, {
+            "item" : "19.47",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.10",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879221,
+        "name" : "POPDEN_2018",
+        "dataTypeName" : "number",
+        "description" : "Population density 2018",
+        "fieldName" : "popden_2018",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720407,
+        "cachedContents" : {
+          "largest" : "1035.28",
+          "null" : "0",
+          "top" : [ {
+            "item" : "287.99",
+            "count" : "1"
+          }, {
+            "item" : "22.79",
+            "count" : "1"
+          }, {
+            "item" : "17.51",
+            "count" : "1"
+          }, {
+            "item" : "676.36",
+            "count" : "1"
+          }, {
+            "item" : "66.73",
+            "count" : "1"
+          }, {
+            "item" : "36.33",
+            "count" : "1"
+          }, {
+            "item" : "96.66",
+            "count" : "1"
+          }, {
+            "item" : "26.64",
+            "count" : "1"
+          }, {
+            "item" : "1035.28",
+            "count" : "1"
+          }, {
+            "item" : "15.57",
+            "count" : "1"
+          }, {
+            "item" : "32.62",
+            "count" : "1"
+          }, {
+            "item" : "10.40",
+            "count" : "1"
+          }, {
+            "item" : "402.30",
+            "count" : "1"
+          }, {
+            "item" : "43.22",
+            "count" : "1"
+          }, {
+            "item" : "7.18",
+            "count" : "1"
+          }, {
+            "item" : "23.15",
+            "count" : "1"
+          }, {
+            "item" : "59.25",
+            "count" : "1"
+          }, {
+            "item" : "9.67",
+            "count" : "1"
+          }, {
+            "item" : "390.19",
+            "count" : "1"
+          }, {
+            "item" : "18.17",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.11",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879220,
+        "name" : "POPDEN_2019",
+        "dataTypeName" : "number",
+        "description" : "Population density 2019",
+        "fieldName" : "popden_2019",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720406,
+        "cachedContents" : {
+          "largest" : "1052.34",
+          "null" : "0",
+          "top" : [ {
+            "item" : "59.59",
+            "count" : "1"
+          }, {
+            "item" : "4.74",
+            "count" : "1"
+          }, {
+            "item" : "4.79",
+            "count" : "1"
+          }, {
+            "item" : "26.85",
+            "count" : "1"
+          }, {
+            "item" : "67.73",
+            "count" : "1"
+          }, {
+            "item" : "17.69",
+            "count" : "1"
+          }, {
+            "item" : "11.99",
+            "count" : "1"
+          }, {
+            "item" : "9.81",
+            "count" : "1"
+          }, {
+            "item" : "18.39",
+            "count" : "1"
+          }, {
+            "item" : "95.56",
+            "count" : "1"
+          }, {
+            "item" : "3.12",
+            "count" : "1"
+          }, {
+            "item" : "8.11",
+            "count" : "1"
+          }, {
+            "item" : "395.87",
+            "count" : "1"
+          }, {
+            "item" : "106.94",
+            "count" : "1"
+          }, {
+            "item" : "532.07",
+            "count" : "1"
+          }, {
+            "item" : "3.55",
+            "count" : "1"
+          }, {
+            "item" : "38.99",
+            "count" : "1"
+          }, {
+            "item" : "776.63",
+            "count" : "1"
+          }, {
+            "item" : "23.54",
+            "count" : "1"
+          }, {
+            "item" : "98.61",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "3.12",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879219,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "description" : "Longitude",
+        "fieldName" : "longitude",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720405,
+        "cachedContents" : {
+          "largest" : "-117.2277813",
+          "null" : "0",
+          "top" : [ {
+            "item" : "-123.4244583",
+            "count" : "1"
+          }, {
+            "item" : "-123.9306111",
+            "count" : "1"
+          }, {
+            "item" : "-123.5218104",
+            "count" : "1"
+          }, {
+            "item" : "-119.5168636",
+            "count" : "1"
+          }, {
+            "item" : "-118.4176675",
+            "count" : "1"
+          }, {
+            "item" : "-122.8294407",
+            "count" : "1"
+          }, {
+            "item" : "-118.5333078",
+            "count" : "1"
+          }, {
+            "item" : "-121.8364325",
+            "count" : "1"
+          }, {
+            "item" : "-119.6958798",
+            "count" : "1"
+          }, {
+            "item" : "-122.4859027",
+            "count" : "1"
+          }, {
+            "item" : "-118.9069436",
+            "count" : "1"
+          }, {
+            "item" : "-121.8323748",
+            "count" : "1"
+          }, {
+            "item" : "-122.3774443",
+            "count" : "1"
+          }, {
+            "item" : "-121.8162777",
+            "count" : "1"
+          }, {
+            "item" : "-123.1738498",
+            "count" : "1"
+          }, {
+            "item" : "-117.8548968",
+            "count" : "1"
+          }, {
+            "item" : "-123.1006162",
+            "count" : "1"
+          }, {
+            "item" : "-121.9532269",
+            "count" : "1"
+          }, {
+            "item" : "-118.4803741",
+            "count" : "1"
+          }, {
+            "item" : "-119.467788",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "-123.9306111",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "5",
+          "align" : "right"
+        }
+      }, {
+        "id" : 419879241,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "description" : "Latitude",
+        "fieldName" : "latitude",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 84720427,
+        "cachedContents" : {
+          "largest" : "48.8426531",
+          "null" : "0",
+          "top" : [ {
+            "item" : "47.7358661",
+            "count" : "1"
+          }, {
+            "item" : "46.9325978",
+            "count" : "1"
+          }, {
+            "item" : "46.4565581",
+            "count" : "1"
+          }, {
+            "item" : "47.2136328",
+            "count" : "1"
+          }, {
+            "item" : "46.1859234",
+            "count" : "1"
+          }, {
+            "item" : "46.5565866",
+            "count" : "1"
+          }, {
+            "item" : "48.5438774",
+            "count" : "1"
+          }, {
+            "item" : "46.2546061",
+            "count" : "1"
+          }, {
+            "item" : "48.8426531",
+            "count" : "1"
+          }, {
+            "item" : "47.8026411",
+            "count" : "1"
+          }, {
+            "item" : "47.4935537",
+            "count" : "1"
+          }, {
+            "item" : "47.5827176",
+            "count" : "1"
+          }, {
+            "item" : "47.6203793",
+            "count" : "1"
+          }, {
+            "item" : "47.6396874",
+            "count" : "1"
+          }, {
+            "item" : "48.5509709",
+            "count" : "1"
+          }, {
+            "item" : "47.0407155",
+            "count" : "1"
+          }, {
+            "item" : "48.5088615",
+            "count" : "1"
+          }, {
+            "item" : "47.0048395",
+            "count" : "1"
+          }, {
+            "item" : "45.7716737",
+            "count" : "1"
+          }, {
+            "item" : "47.8598915",
+            "count" : "1"
+          } ],
+          "not_null" : "39",
+          "smallest" : "45.7716737",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "precision" : "5",
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Temporal" : {
+            "Posting Frequency" : "Annually"
+          },
+          "Notes" : {
+            "1. " : "Population density is measured in persons per square mile.",
+            "2. " : "The land area measurement used to calculate population density excludes lakes and other water areas within.",
+            "3. " : "The 2000 and 2010 population values used to calculate population density represent OFM adjusted/corrected federal census counts.",
+            "4. " : "The 2001 to 2009 population values used to calculate population density are derived from OFM's intercensal population estimate series.",
+            "5. " : "The 2011 to present population values used to calculate population density are derived from OFM's intercensal population estimate series.\t\t",
+            "6. " : "By using these data the user agrees that the Washington State Office of Financial Management shall not be liable for any activity involving these data with regard to lost profits or savings or any other consequential damages; or the fitness for use of the data for a particular purpose; or the installation of the data, its use, or the results obtained."
+          }
+        },
+        "rowLabel" : "County",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "qav9-tahu",
+        "displayName" : "Thomas Kimpel",
+        "profileImageUrlLarge" : "/api/users/qav9-tahu/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/qav9-tahu/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/qav9-tahu/profile_images/TINY",
+        "screenName" : "Thomas Kimpel",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "qav9-tahu",
+        "displayName" : "Thomas Kimpel",
+        "profileImageUrlLarge" : "/api/users/qav9-tahu/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/qav9-tahu/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/qav9-tahu/profile_images/TINY",
+        "screenName" : "Thomas Kimpel",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "wa", "washington", "ofm", "state", "county", "population", "density" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-9sip.rcjy.brm6", "00000000-0000-0000-B90D-8EB8BEC0CDDA", 0, 1564001399, null, 1564001399, null, "{ }", "Adams", "8.53", "8.67", "8.79", "8.87", "9.09", "9.17", "9.19", "9.33", "9.46", "9.57", "9.73", "9.84", "9.90", "9.97", "10.08", "10.08", "10.14", "10.32", "10.40", "10.47", "-118.5333078", "47.0048395" ]
+, [ "row-k6yv-z9pj.n8xw", "00000000-0000-0000-95B1-82DB2B6B6F06", 0, 1564001399, null, 1564001399, null, "{ }", "Asotin", "32.35", "32.50", "32.51", "32.60", "32.71", "32.96", "33.33", "33.70", "33.87", "33.99", "33.99", "34.03", "34.11", "34.27", "34.5", "34.60", "34.82", "35.04", "35.24", "35.40", "-117.2277813", "46.1818612" ]
+, [ "row-vbyr~mrva-empv", "00000000-0000-0000-B394-F6FB9D639561", 0, 1564001399, null, 1564001399, null, "{ }", "Benton", "83.66", "85.30", "87.07", "89.21", "91.52", "93.53", "95.27", "96.94", "98.41", "100.64", "103.02", "104.62", "105.86", "107.86", "109.68", "110.91", "112.03", "113.80", "116.10", "118.68", "-119.5168636", "46.228072" ]
+, [ "row-nwtc-np6u-bbju", "00000000-0000-0000-8B7A-CFB8AF0D8971", 0, 1564001399, null, 1564001399, null, "{ }", "Chelan", "22.80", "22.90", "23.07", "23.11", "23.28", "23.61", "23.93", "24.23", "24.58", "24.71", "24.81", "24.89", "25.06", "25.20", "25.44", "25.69", "25.99", "26.31", "26.64", "26.85", "-120.6185425", "47.8598915" ]
+, [ "row-3i9g.mnhy.u9v8", "00000000-0000-0000-1807-509AEA4B8F6E", 0, 1564001399, null, 1564001399, null, "{ }", "Clallam", "36.90", "37.21", "37.60", "37.90", "38.36", "38.90", "39.64", "40.15", "40.60", "40.83", "41.08", "41.19", "41.42", "41.62", "41.71", "41.79", "42.23", "42.71", "43.22", "43.73", "-123.9306111", "48.1130086" ]
+, [ "row-nq4d.8pkd-b6fv", "00000000-0000-0000-4D2F-77E2F0DED25E", 0, 1564001399, null, 1564001399, null, "{ }", "Clark", "549.55", "561.45", "580.78", "595.48", "613.43", "628.12", "644.26", "656.92", "667.11", "674.56", "676.25", "680.45", "685.61", "692.37", "703.97", "718.31", "732.93", "748.81", "762.32", "776.63", "-122.4859027", "45.7716737" ]
+, [ "row-2pqa-c53u~2cpp", "00000000-0000-0000-8A41-370FABFBB8C9", 0, 1564001399, null, 1564001399, null, "{ }", "Columbia", "4.68", "4.74", "4.74", "4.73", "4.74", "4.76", "4.75", "4.71", "4.72", "4.72", "4.69", "4.72", "4.72", "4.72", "4.7", "4.71", "4.66", "4.72", "4.78", "4.79", "-117.9116345", "46.2928505" ]
+, [ "row-ete4-ygxy.8e9k", "00000000-0000-0000-CC7F-61B0460E5FAD", 0, 1564001399, null, 1564001399, null, "{ }", "Cowlitz", "81.63", "82.63", "83.30", "84.18", "84.83", "85.78", "87.03", "88.16", "89.18", "89.73", "89.82", "90.08", "90.38", "90.60", "90.95", "91.46", "91.96", "92.88", "94.12", "95.56", "-122.6586822", "46.1859234" ]
+, [ "row-dk3j_bm4x~iekv", "00000000-0000-0000-8894-1235E2B07F12", 0, 1564001399, null, 1564001399, null, "{ }", "Douglas", "17.91", "18.03", "18.06", "18.43", "18.65", "18.93", "19.50", "19.96", "20.45", "20.89", "21.12", "21.24", "21.38", "21.59", "21.82", "21.98", "22.38", "22.77", "23.15", "23.54", "-119.6958798", "47.7358661" ]
+, [ "row-4rcr_uuh2-m9c8", "00000000-0000-0000-D1A5-7047C4539D3D", 0, 1564001399, null, 1564001399, null, "{ }", "Ferry", "3.29", "3.33", "3.35", "3.36", "3.34", "3.36", "3.39", "3.40", "3.42", "3.43", "3.43", "3.45", "3.47", "3.47", "3.48", "3.50", "3.49", "3.51", "3.53", "3.55", "-118.5170739", "48.4372459" ]
+, [ "row-57a4.5zw6.pij7", "00000000-0000-0000-44E8-A22BF1E90837", 0, 1564001399, null, 1564001399, null, "{ }", "Franklin", "39.72", "40.63", "42.08", "44.19", "47.15", "50.36", "53.42", "56.01", "58.14", "60.46", "62.92", "64.81", "66.42", "68.27", "69.72", "70.16", "71.38", "72.72", "74.50", "76.22", "-118.9069436", "46.5345799" ]
+, [ "row-n459_g92k_aeje", "00000000-0000-0000-E3DB-C5C66ABF6F5A", 0, 1564001399, null, 1564001399, null, "{ }", "Garfield", "3.37", "3.35", "3.33", "3.30", "3.27", "3.26", "3.25", "3.22", "3.21", "3.20", "3.19", "3.17", "3.17", "3.17", "3.15", "3.18", "3.10", "3.10", "3.11", "3.12", "-117.5367145", "46.4294742" ]
+, [ "row-n5fk.d46q-a5jx", "00000000-0000-0000-34FA-725759D53082", 0, 1564001399, null, 1564001399, null, "{ }", "Grant", "27.86", "28.31", "28.70", "28.90", "29.46", "29.88", "30.51", "31.23", "32.07", "32.72", "33.26", "33.63", "33.96", "34.26", "34.67", "35.05", "35.31", "35.69", "36.33", "36.85", "-119.467788", "47.2136328" ]
+, [ "row-gubm-sp83_uw62", "00000000-0000-0000-C964-D64249083000", 0, 1564001399, null, 1564001399, null, "{ }", "Grays Harbor", "35.05", "35.84", "36.12", "36.23", "36.55", "36.94", "37.34", "37.58", "37.71", "37.86", "38.27", "38.33", "38.46", "38.49", "38.54", "38.44", "38.29", "38.36", "38.70", "38.99", "-123.8270425", "47.1427856" ]
+, [ "row-5mie-34ny~fn57", "00000000-0000-0000-BD6B-41E034C6D6E9", 0, 1564001399, null, 1564001399, null, "{ }", "Island", "343.32", "345.74", "350.96", "353.26", "357.67", "364.40", "370.34", "375.31", "376.84", "377.76", "376.62", "378.03", "380.67", "382.35", "383.79", "386.66", "397.75", "397.17", "402.30", "406.91", "-122.6705032", "48.1584361" ]
+, [ "row-bexw-4rgp_6vjf", "00000000-0000-0000-C1FB-A4F5DDAE1BC5", 0, 1564001399, null, 1564001399, null, "{ }", "Jefferson", "14.50", "14.70", "14.96", "15.07", "15.29", "15.63", "15.90", "16.12", "16.33", "16.41", "16.56", "16.66", "16.73", "16.78", "17.02", "17.12", "17.24", "17.39", "17.51", "17.69", "-123.5218104", "47.8026411" ]
+, [ "row-qv7y.xyru-n4h5", "00000000-0000-0000-CFD9-DE863B7BCA5E", 0, 1564001399, null, 1564001399, null, "{ }", "King", "817.03", "825.71", "836.07", "841.04", "847.01", "853.70", "867.91", "880.09", "889.51", "898.01", "912.87", "918.24", "925.05", "936.82", "953.53", "970.33", "995.05", "1018.02", "1035.28", "1052.34", "-121.8323748", "47.4935537" ]
+, [ "row-z4qv.h7vi~jugv", "00000000-0000-0000-AA98-5AF4222E515B", 0, 1564001399, null, 1564001399, null, "{ }", "Kitsap", "585.82", "590.75", "597.66", "604.70", "608.07", "605.65", "616.33", "624.99", "631.12", "634.52", "635.88", "642.88", "644.40", "643.14", "647.95", "653.77", "664.89", "669.22", "676.36", "683.90", "-122.6496358", "47.6396874" ]
+, [ "row-45ia-2636-hrbn", "00000000-0000-0000-15D8-5E4FF0DE3089", 0, 1564001399, null, 1564001399, null, "{ }", "Kittitas", "14.52", "14.77", "15.02", "15.44", "16.01", "16.39", "16.62", "17.04", "17.47", "17.72", "17.81", "17.98", "18.06", "18.24", "18.33", "18.57", "19.03", "19.47", "19.85", "20.27", "-120.6767136", "47.1244443" ]
+, [ "row-uhwt.jrq9~f4x3", "00000000-0000-0000-4B28-4EB9D3C656E1", 0, 1564001399, null, 1564001399, null, "{ }", "Klickitat", "10.23", "10.30", "10.34", "10.39", "10.50", "10.55", "10.67", "10.74", "10.80", "10.82", "10.86", "10.95", "11.01", "11.06", "11.14", "11.22", "11.37", "11.57", "11.75", "11.99", "-120.7801171", "45.8695091" ]
+, [ "row-vwjp_e24f_mf9q", "00000000-0000-0000-8621-C80B03CD591D", 0, 1564001399, null, 1564001399, null, "{ }", "Lewis", "28.49", "28.81", "29.11", "29.24", "29.52", "29.81", "30.34", "30.75", "31.09", "31.28", "31.40", "31.63", "31.75", "31.71", "31.75", "31.90", "32.00", "32.23", "32.62", "33.08", "-122.3774443", "46.5800714" ]
+, [ "row-qf6n.s7hv~ts59", "00000000-0000-0000-25F6-D65E650368E5", 0, 1564001399, null, 1564001399, null, "{ }", "Lincoln", "4.41", "4.46", "4.45", "4.39", "4.46", "4.49", "4.51", "4.56", "4.60", "4.60", "4.57", "4.59", "4.62", "4.62", "4.63", "4.64", "4.61", "4.63", "4.68", "4.74", "-118.4176675", "47.5827176" ]
+, [ "row-epr9.xzhe_x5me", "00000000-0000-0000-4BF3-F27CBD594D1D", 0, 1564001399, null, 1564001399, null, "{ }", "Mason", "51.41", "52.00", "53.05", "54.07", "55.39", "56.96", "58.49", "60.42", "61.95", "62.68", "63.27", "63.68", "64.05", "64.41", "64.62", "64.83", "64.96", "65.86", "66.73", "67.73", "-123.1738498", "47.3541257" ]
+, [ "row-rrth~mhac-pqmn", "00000000-0000-0000-FD82-089AD3085C0F", 0, 1564001399, null, 1564001399, null, "{ }", "Okanogan", "7.51", "7.56", "7.59", "7.59", "7.62", "7.64", "7.72", "7.67", "7.70", "7.78", "7.81", "7.82", "7.86", "7.88", "7.92", "7.95", "7.92", "7.99", "8.07", "8.11", "-119.6910346", "48.5509709" ]
+, [ "row-5xmq.n8kq~5vbs", "00000000-0000-0000-77C6-C12D4D840587", 0, 1564001399, null, 1564001399, null, "{ }", "Pacific", "22.49", "22.46", "22.37", "22.15", "22.15", "22.16", "22.41", "22.28", "22.24", "22.39", "22.43", "22.41", "22.48", "22.52", "22.62", "22.74", "22.71", "22.78", "22.97", "23.20", "-123.7824193", "46.5565866" ]
+, [ "row-6qts.z489-4i5g", "00000000-0000-0000-A19B-007EA275754C", 0, 1564001399, null, 1564001399, null, "{ }", "Pend Oreille", "8.38", "8.56", "8.57", "8.63", "8.69", "8.82", "8.93", "9.04", "9.18", "9.17", "9.29", "9.29", "9.36", "9.39", "9.44", "9.46", "9.49", "9.55", "9.67", "9.81", "-117.2321828", "48.5438774" ]
+, [ "row-8xvr.7mdp~ffie", "00000000-0000-0000-B0C4-C76BD9571B4D", 0, 1564001399, null, 1564001399, null, "{ }", "Pierce", "417.42", "422.47", "429.52", "435.98", "442.97", "450.84", "461.04", "468.70", "473.12", "474.65", "476.32", "480.47", "484.09", "487.87", "491.94", "497.22", "505.83", "514.76", "522.44", "532.07", "-122.144709", "47.0407155" ]
+, [ "row-yr5h~d6xa-2n9h", "00000000-0000-0000-1D73-409E4BC19DDB", 0, 1564001399, null, 1564001399, null, "{ }", "San Juan", "80.48", "82.33", "83.83", "84.45", "85.38", "86.78", "87.92", "88.51", "89.38", "89.97", "90.67", "91.43", "91.57", "92.00", "92.58", "93.04", "93.84", "94.93", "96.66", "98.61", "-123.1006162", "48.5088615" ]
+, [ "row-6dw9.d64y_nt8d", "00000000-0000-0000-0D56-D00ED5E1EC5D", 0, 1564001399, null, 1564001399, null, "{ }", "Skagit", "59.35", "60.08", "61.01", "61.46", "62.53", "63.38", "64.61", "65.64", "66.52", "67.21", "67.53", "67.81", "68.13", "68.51", "69.03", "69.67", "70.63", "71.68", "73.08", "74.63", "-121.8162777", "48.4930662" ]
+, [ "row-q2cm-rubx_qyc8", "00000000-0000-0000-EAB7-48581095ED6D", 0, 1564001399, null, 1564001399, null, "{ }", "Skamania", "5.96", "6.00", "6.06", "6.11", "6.21", "6.35", "6.51", "6.58", "6.61", "6.64", "6.68", "6.73", "6.81", "6.82", "6.87", "6.90", "6.95", "7.06", "7.18", "7.28", "-121.9532269", "46.0247815" ]
+, [ "row-2a5g-7xsj~be6c", "00000000-0000-0000-350F-AD2F3BDA7EED", 0, 1564001399, null, 1564001399, null, "{ }", "Snohomish", "290.09", "295.76", "301.23", "306.33", "310.56", "316.58", "323.65", "329.96", "334.76", "337.90", "341.76", "343.51", "346.34", "349.98", "355.01", "362.96", "370.27", "378.20", "385.73", "392.23", "-121.7664118", "48.054913" ]
+, [ "row-v2qa.d8ka-vsjv", "00000000-0000-0000-0A30-F14D498A5F9A", 0, 1564001399, null, 1564001399, null, "{ }", "Spokane", "236.98", "239.92", "243.11", "243.18", "244.89", "248.49", "253.31", "257.44", "261.00", "264.47", "267.16", "267.97", "269.65", "272.14", "274.69", "276.85", "279.25", "283.37", "287.99", "292.13", "-117.4043916", "47.6203793" ]
+, [ "row-epfe_sasn-s3pa", "00000000-0000-0000-DB6B-0DA956C1D075", 0, 1564001399, null, 1564001399, null, "{ }", "Stevens", "16.17", "16.27", "16.39", "16.53", "16.68", "16.86", "17.09", "17.25", "17.46", "17.56", "17.57", "17.60", "17.64", "17.68", "17.72", "17.77", "17.80", "17.96", "18.17", "18.39", "-117.8548968", "48.3906475" ]
+, [ "row-xgkt.4wxi_kffy", "00000000-0000-0000-A324-9BE50C315DA2", 0, 1564001399, null, 1564001399, null, "{ }", "Thurston", "285.21", "288.99", "294.54", "300.22", "306.82", "315.38", "321.98", "329.52", "336.79", "342.96", "349.42", "351.96", "355.70", "360.27", "365.67", "370.39", "377.71", "383.54", "390.19", "395.87", "-122.8294407", "46.9325978" ]
+, [ "row-eneh_7gta_h5uy", "00000000-0000-0000-60AF-F96A4D636955", 0, 1564001399, null, 1564001399, null, "{ }", "Wahkiakum", "14.47", "14.50", "14.48", "14.51", "14.48", "14.63", "14.80", "15.00", "15.16", "15.15", "15.10", "15.19", "15.28", "15.26", "15.23", "15.11", "15.19", "15.30", "15.57", "15.91", "-123.4244583", "46.2946377" ]
+, [ "row-3zyx~fu6u.ny58", "00000000-0000-0000-52A7-2443CA09C1C4", 0, 1564001399, null, 1564001399, null, "{ }", "Walla Walla", "43.43", "43.37", "43.48", "43.73", "44.21", "44.87", "45.04", "45.46", "45.70", "46.09", "46.28", "46.29", "46.53", "46.85", "47.36", "47.75", "47.81", "48.34", "48.66", "48.97", "-118.4803741", "46.2546061" ]
+, [ "row-pzga~25vm-5j79", "00000000-0000-0000-57FB-DE35F22ACE4C", 0, 1564001399, null, 1564001399, null, "{ }", "Whatcom", "78.71", "80.67", "82.21", "83.03", "85.04", "87.27", "89.68", "92.14", "93.26", "94.24", "95.47", "95.92", "96.59", "97.68", "98.54", "99.57", "100.88", "102.66", "104.59", "106.94", "-121.8364325", "48.8426531" ]
+, [ "row-49b9.ft67.us53", "00000000-0000-0000-67E2-ADAAD1D0A90C", 0, 1564001399, null, 1564001399, null, "{ }", "Whitman", "18.87", "18.68", "18.82", "18.97", "19.30", "19.68", "19.84", "19.82", "20.41", "20.38", "20.74", "20.75", "21.28", "21.31", "21.54", "21.88", "22.20", "22.53", "22.79", "23.22", "-117.5229619", "46.9033216" ]
+, [ "row-6p69-7s72_u2ec", "00000000-0000-0000-ED91-5A794D6798EC", 0, 1564001399, null, 1564001399, null, "{ }", "Yakima", "51.81", "52.19", "52.32", "53.06", "53.54", "53.98", "54.56", "55.15", "55.75", "56.26", "56.63", "56.97", "57.27", "57.56", "57.92", "58.19", "58.41", "58.90", "59.25", "59.59", "-120.7401446", "46.4565581" ]
+ ]
+}
